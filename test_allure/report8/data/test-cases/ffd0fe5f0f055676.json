@@ -1,0 +1,95 @@
+{
+  "uid" : "ffd0fe5f0f055676",
+  "name" : "test_steps_demo[allure]",
+  "fullName" : "test_baidudemo#test_steps_demo",
+  "historyId" : "77446bc5c35b2e2394141393a0922721",
+  "time" : {
+    "start" : 1629854784575,
+    "stop" : 1629854784576,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'function' object has no attribute 'Chrome'",
+  "statusTrace" : "test_data1 = 'allure'\n\n    @allure.testcase(\"http://www.github.com\")\n    #添加测试报告的feature\n    @allure.feature(\"百度搜索\")\n    #参数化，实现'allure','pytest','unittest'三个词的搜索\n    @pytest.mark.parametrize('test_data1',['allure','pytest','unittest'])\n    def test_steps_demo(test_data1):\n        with allure.step(\"打开百度网页\"):\n>           driver = selenium.webdriver.Chrome()\nE           AttributeError: 'function' object has no attribute 'Chrome'\n\ntest_baidudemo.py:15: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'function' object has no attribute 'Chrome'",
+    "statusTrace" : "test_data1 = 'allure'\n\n    @allure.testcase(\"http://www.github.com\")\n    #添加测试报告的feature\n    @allure.feature(\"百度搜索\")\n    #参数化，实现'allure','pytest','unittest'三个词的搜索\n    @pytest.mark.parametrize('test_data1',['allure','pytest','unittest'])\n    def test_steps_demo(test_data1):\n        with allure.step(\"打开百度网页\"):\n>           driver = selenium.webdriver.Chrome()\nE           AttributeError: 'function' object has no attribute 'Chrome'\n\ntest_baidudemo.py:15: AttributeError",
+    "steps" : [ {
+      "name" : "打开百度网页",
+      "time" : {
+        "start" : 1629854784576,
+        "stop" : 1629854784576,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'function' object has no attribute 'Chrome'\n",
+      "statusTrace" : "  File \"C:\\Users\\Administrator\\PycharmProjects\\TestPytest\\test_allure\\test_baidudemo.py\", line 15, in test_steps_demo\n    driver = selenium.webdriver.Chrome()\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "百度搜索"
+  }, {
+    "name" : "suite",
+    "value" : "test_baidudemo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GRKQKVO"
+  }, {
+    "name" : "thread",
+    "value" : "51464-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_baidudemo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data1",
+    "value" : "'allure'"
+  } ],
+  "links" : [ {
+    "name" : "http://www.github.com",
+    "url" : "http://www.github.com",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ffd0fe5f0f055676.json",
+  "parameterValues" : [ "'allure'" ]
+}

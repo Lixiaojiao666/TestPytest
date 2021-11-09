@@ -1,0 +1,54 @@
+{
+  "uid" : "7eea63ec2e50cbbc",
+  "name" : "test_with_testcase_link",
+  "fullName" : "test_testcase#test_with_testcase_link",
+  "historyId" : "a232bed1d09d94485bf77a9259b1e39a",
+  "time" : {
+    "start" : 1629427327105,
+    "stop" : 1629427327105,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GRKQKVO"
+  }, {
+    "name" : "thread",
+    "value" : "38112-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "测试链接",
+    "url" : "https//github.com/qameta/allure-integrations/issues/8#issuecomment-268313637",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7eea63ec2e50cbbc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,83 @@
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
+rootdir: C:\Users\Administrator\PycharmProjects\TestPytest\test_allure
+plugins: allure-pytest-2.9.43
+collected 21 items
+
+test_attach.py ....                                                      [ 19%]
+test_baidudemo.py FFF                                                    [ 33%]
+test_feature_story.py .....F.                                            [ 66%]
+test_severity.py .....                                                   [ 90%]
+test_testcase.py .                                                       [ 95%]
+test_title.py .                                                          [100%]
+
+================================== FAILURES ===================================
+___________________________ test_steps_demo[allure] ___________________________
+
+test_data1 = 'allure'
+
+    @allure.testcase("http://www.github.com")
+    #添加测试报告的feature
+    @allure.feature("百度搜索")
+    #参数化，实现'allure','pytest','unittest'三个词的搜索
+    @pytest.mark.parametrize('test_data1',['allure','pytest','unittest'])
+    def test_steps_demo(test_data1):
+        with allure.step("打开百度网页"):
+>           driver = selenium.webdriver.Chrome()
+E           AttributeError: 'function' object has no attribute 'Chrome'
+
+test_baidudemo.py:15: AttributeError
+___________________________ test_steps_demo[pytest] ___________________________
+
+test_data1 = 'pytest'
+
+    @allure.testcase("http://www.github.com")
+    #添加测试报告的feature
+    @allure.feature("百度搜索")
+    #参数化，实现'allure','pytest','unittest'三个词的搜索
+    @pytest.mark.parametrize('test_data1',['allure','pytest','unittest'])
+    def test_steps_demo(test_data1):
+        with allure.step("打开百度网页"):
+>           driver = selenium.webdriver.Chrome()
+E           AttributeError: 'function' object has no attribute 'Chrome'
+
+test_baidudemo.py:15: AttributeError
+__________________________ test_steps_demo[unittest] __________________________
+
+test_data1 = 'unittest'
+
+    @allure.testcase("http://www.github.com")
+    #添加测试报告的feature
+    @allure.feature("百度搜索")
+    #参数化，实现'allure','pytest','unittest'三个词的搜索
+    @pytest.mark.parametrize('test_data1',['allure','pytest','unittest'])
+    def test_steps_demo(test_data1):
+        with allure.step("打开百度网页"):
+>           driver = selenium.webdriver.Chrome()
+E           AttributeError: 'function' object has no attribute 'Chrome'
+
+test_baidudemo.py:15: AttributeError
+________________________ TestLogin.test_login_failure _________________________
+
+self = <test_allure.test_feature_story.TestLogin object at 0x000001C2F6A8AC70>
+
+    @allure.story("密码缺失")
+    def test_login_failure(self):
+        with allure.step("点击用户名"):
+            print("点击用户名")
+        with allure.step("点击密码"):
+            print("输入密码")
+        with allure.step("点击登录之后登录失败"):
+>           assert '1' == 1
+E           AssertionError: assert '1' == 1
+
+test_feature_story.py:51: AssertionError
+---------------------------- Captured stdout call -----------------------------
+点击用户名
+输入密码
+=========================== short test summary info ===========================
+FAILED test_baidudemo.py::test_steps_demo[allure] - AttributeError: 'function...
+FAILED test_baidudemo.py::test_steps_demo[pytest] - AttributeError: 'function...
+FAILED test_baidudemo.py::test_steps_demo[unittest] - AttributeError: 'functi...
+FAILED test_feature_story.py::TestLogin::test_login_failure - AssertionError:...
+======================== 4 failed, 17 passed in 0.74s =========================

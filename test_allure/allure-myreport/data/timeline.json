@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-GRKQKVO",
+    "children" : [ {
+      "name" : "38112-MainThread",
+      "children" : [ {
+        "name" : "test_with_testcase_link",
+        "uid" : "67d5838dfde35c7a",
+        "parentUid" : "e0e1fc8c16c4bd0ca7e891a73d624f0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629427327105,
+          "stop" : 1629427327105,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0e1fc8c16c4bd0ca7e891a73d624f0c"
+    } ],
+    "uid" : "8c39d0ba1ba56280f63d9c90b267b217"
+  } ]
+}

@@ -1,0 +1,75 @@
+{
+  "uid" : "7595acff6b4d1b26",
+  "name" : "test_login_failure_a",
+  "fullName" : "test_feature_story.TestLogin#test_login_failure_a",
+  "historyId" : "4a6825d14ef5ecc3057b80f34c01882c",
+  "time" : {
+    "start" : 1629854784748,
+    "stop" : 1629854784748,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3a32e43ffb24c177",
+      "name" : "stdout",
+      "source" : "3a32e43ffb24c177.txt",
+      "type" : "text/plain",
+      "size" : 44
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录失败"
+  }, {
+    "name" : "suite",
+    "value" : "test_feature_story"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GRKQKVO"
+  }, {
+    "name" : "thread",
+    "value" : "51464-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_feature_story"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7595acff6b4d1b26.json",
+  "parameterValues" : [ ]
+}

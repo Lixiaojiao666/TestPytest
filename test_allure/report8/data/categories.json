@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'function' object has no attribute 'Chrome'",
+      "children" : [ {
+        "name" : "test_steps_demo[allure]",
+        "uid" : "ffd0fe5f0f055676",
+        "parentUid" : "2df2a43b7b31c76c5398db912ae15a04",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629854784575,
+          "stop" : 1629854784576,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'allure'" ]
+      }, {
+        "name" : "test_steps_demo[pytest]",
+        "uid" : "bb97508a72087afa",
+        "parentUid" : "2df2a43b7b31c76c5398db912ae15a04",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629854784704,
+          "stop" : 1629854784704,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'pytest'" ]
+      }, {
+        "name" : "test_steps_demo[unittest]",
+        "uid" : "1ecf7a85dc6eda0c",
+        "parentUid" : "2df2a43b7b31c76c5398db912ae15a04",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629854784714,
+          "stop" : 1629854784714,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'unittest'" ]
+      } ],
+      "uid" : "2df2a43b7b31c76c5398db912ae15a04"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '1' == 1",
+      "children" : [ {
+        "name" : "test_login_failure",
+        "uid" : "351ca4f249846049",
+        "parentUid" : "7f61e51e828afbbae8d9807e1240aa49",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629854784740,
+          "stop" : 1629854784741,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f61e51e828afbbae8d9807e1240aa49"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

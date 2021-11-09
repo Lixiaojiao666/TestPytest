@@ -1,0 +1,66 @@
+{
+  "uid" : "289903e902f2beac",
+  "name" : "test_attach_photo",
+  "fullName" : "test_attach#test_attach_photo",
+  "historyId" : "c96a6a5db98e26f72af10e1cd5f5d6c7",
+  "time" : {
+    "start" : 1629854784546,
+    "stop" : 1629854784552,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6b4c6da4cfd0998f",
+      "name" : "这是一个图片",
+      "source" : "6b4c6da4cfd0998f.jpg",
+      "type" : "image/jpg",
+      "size" : 29362
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_attach"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GRKQKVO"
+  }, {
+    "name" : "thread",
+    "value" : "51464-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_attach"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "289903e902f2beac.json",
+  "parameterValues" : [ ]
+}
